@@ -4,6 +4,8 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace StockService
 {
@@ -12,6 +14,16 @@ namespace StockService
         const string ApiKey = "&apikey=JMVK0ST2FGOQ9A8W";
         const string ServiceUrl = "https://www.alphavantage.co/query?";
         protected string Arguments = "";
+        protected Dictionary<string, string> ReplaceStrings = new Dictionary<string, string>();
+
+        public string ReplaceValues(string input)
+        {
+            foreach(var rs in ReplaceStrings)
+            {
+                input = input.Replace(rs.Key, rs.Value);
+            }
+            return input;
+        }
 
         public async Task<string> FetchData()
         {
@@ -38,6 +50,12 @@ namespace StockService
                 }
                 throw;
             }
+        }
+
+        public string GetValue(string json, string key)
+        {
+            var result = JObject.Parse(json);
+            return result.SelectToken(key).ToString();
         }
     }
 }

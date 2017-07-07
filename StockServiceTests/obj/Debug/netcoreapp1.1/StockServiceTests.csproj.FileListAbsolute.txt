@@ -1,0 +1,14 @@
+C:\dev\TANotifier\StockServiceTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\dev\TANotifier\StockServiceTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\dev\TANotifier\StockServiceTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\dev\TANotifier\StockServiceTests\bin\Debug\netcoreapp1.1\StockServiceTests.deps.json
+C:\dev\TANotifier\StockServiceTests\bin\Debug\netcoreapp1.1\StockServiceTests.runtimeconfig.json
+C:\dev\TANotifier\StockServiceTests\bin\Debug\netcoreapp1.1\StockServiceTests.runtimeconfig.dev.json
+C:\dev\TANotifier\StockServiceTests\bin\Debug\netcoreapp1.1\StockServiceTests.dll
+C:\dev\TANotifier\StockServiceTests\bin\Debug\netcoreapp1.1\StockServiceTests.pdb
+C:\dev\TANotifier\StockServiceTests\bin\Debug\netcoreapp1.1\StockService.dll
+C:\dev\TANotifier\StockServiceTests\bin\Debug\netcoreapp1.1\StockService.pdb
+C:\dev\TANotifier\StockServiceTests\obj\Debug\netcoreapp1.1\StockServiceTests.csprojResolveAssemblyReference.cache
+C:\dev\TANotifier\StockServiceTests\obj\Debug\netcoreapp1.1\StockServiceTests.AssemblyInfo.cs
+C:\dev\TANotifier\StockServiceTests\obj\Debug\netcoreapp1.1\StockServiceTests.dll
+C:\dev\TANotifier\StockServiceTests\obj\Debug\netcoreapp1.1\StockServiceTests.pdb

@@ -1,0 +1,11 @@
+C:\dev\TANotifier\TA.Web\bin\Debug\netcoreapp1.1\TA.Web.deps.json
+C:\dev\TANotifier\TA.Web\bin\Debug\netcoreapp1.1\TA.Web.runtimeconfig.json
+C:\dev\TANotifier\TA.Web\bin\Debug\netcoreapp1.1\TA.Web.runtimeconfig.dev.json
+C:\dev\TANotifier\TA.Web\bin\Debug\netcoreapp1.1\TA.Web.dll
+C:\dev\TANotifier\TA.Web\bin\Debug\netcoreapp1.1\TA.Web.pdb
+C:\dev\TANotifier\TA.Web\obj\Debug\netcoreapp1.1\TA.Web.csprojResolveAssemblyReference.cache
+C:\dev\TANotifier\TA.Web\obj\Debug\netcoreapp1.1\TA.Web.AssemblyInfo.cs
+C:\dev\TANotifier\TA.Web\obj\Debug\netcoreapp1.1\TA.Web.dll
+C:\dev\TANotifier\TA.Web\obj\Debug\netcoreapp1.1\TA.Web.pdb
+C:\dev\TANotifier\TA.Web\bin\Debug\netcoreapp1.1\StockService.dll
+C:\dev\TANotifier\TA.Web\bin\Debug\netcoreapp1.1\StockService.pdb

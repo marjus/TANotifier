@@ -1,0 +1,7 @@
+C:\dev\TANotifier\TA\bin\Debug\netcoreapp1.1\TA.deps.json
+C:\dev\TANotifier\TA\bin\Debug\netcoreapp1.1\TA.dll
+C:\dev\TANotifier\TA\bin\Debug\netcoreapp1.1\TA.pdb
+C:\dev\TANotifier\TA\obj\Debug\netcoreapp1.1\TA.csprojResolveAssemblyReference.cache
+C:\dev\TANotifier\TA\obj\Debug\netcoreapp1.1\TA.AssemblyInfo.cs
+C:\dev\TANotifier\TA\obj\Debug\netcoreapp1.1\TA.dll
+C:\dev\TANotifier\TA\obj\Debug\netcoreapp1.1\TA.pdb

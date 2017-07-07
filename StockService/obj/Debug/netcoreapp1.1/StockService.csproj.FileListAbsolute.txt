@@ -1,0 +1,7 @@
+C:\dev\TANotifier\StockService\bin\Debug\netcoreapp1.1\StockService.deps.json
+C:\dev\TANotifier\StockService\bin\Debug\netcoreapp1.1\StockService.dll
+C:\dev\TANotifier\StockService\bin\Debug\netcoreapp1.1\StockService.pdb
+C:\dev\TANotifier\StockService\obj\Debug\netcoreapp1.1\StockService.csprojResolveAssemblyReference.cache
+C:\dev\TANotifier\StockService\obj\Debug\netcoreapp1.1\StockService.AssemblyInfo.cs
+C:\dev\TANotifier\StockService\obj\Debug\netcoreapp1.1\StockService.dll
+C:\dev\TANotifier\StockService\obj\Debug\netcoreapp1.1\StockService.pdb

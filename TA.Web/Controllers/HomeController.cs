@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StockService;
 
 namespace TA.Web.Controllers
 {
@@ -13,11 +14,17 @@ namespace TA.Web.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public async Task<IActionResult> About()
         {
-            ViewData["Message"] = "Your application description page.";
+            var ticker = "PIZZA.HE";
+            var smaService = new SMA50Fetcher(ticker);
 
+            var tsService = new TimeSeriesDailyFetcher(ticker);
+            var sma50 = await smaService.GetSMA50AtDay(DateTime.Now);
 
+            var ts = await tsService.GetDayValue(DateTime.Now);
+
+            ViewData["Message"] = $"{ticker} SMA50: {sma50} Close value: {ts.Close}";
 
             return View();
         }
