@@ -1,0 +1,31 @@
+﻿@model List<TA.Web.Models.TAData>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<br />
+<div class="main">
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Ticker</td>
+                <td>SMA50</td>
+                <td>Last close</td>
+                <td>Relative %</td>
+                <td>Day</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@item.Ticker</td>
+                <td>@item.TAValue</td>
+                <td>@item.LastClose</td>
+                <td>@item.DiffVsCurrentPrice</td>
+                <td>@item.Day</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

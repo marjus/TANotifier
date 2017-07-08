@@ -11,6 +11,7 @@ namespace StockService
         public int Volume { get; set; }
         public decimal High { get; set; }
         public decimal Low { get; set; }
+        public string DayString { get; set; }
     }
 
 }

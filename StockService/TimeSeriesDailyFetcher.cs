@@ -9,7 +9,7 @@ namespace StockService
 {
     public class TimeSeriesDailyFetcher : DataFetcher
     {
-        const string jpath = "$.TimeSeries.{0}.Close";
+        const string jpath = "$.TimeSeries.{day}.{type}";
 
         public TimeSeriesDailyFetcher(string symbol)
         {
@@ -31,7 +31,8 @@ namespace StockService
             var json = await FetchData();
             var validJson = ReplaceValues(json);
             var daystring = day.ToString("yyyy-MM-dd");
-            var fulljpath = jpath.Replace("{0}", daystring);
+            var fulljpath = jpath.Replace("{day}", daystring);
+            fulljpath = fulljpath.Replace("{type}", "Close");
             var value = GetValue(validJson, fulljpath);
 
             if (string.IsNullOrEmpty(value))
@@ -40,7 +41,8 @@ namespace StockService
             }
             var timeEntry = new TimeSeriesDaily()
             {
-                Close = decimal.Parse(value, System.Globalization.NumberStyles.Any, CultureInfo.InvariantCulture)
+                Close = decimal.Parse(value, System.Globalization.NumberStyles.Any, CultureInfo.InvariantCulture),
+                DayString = daystring
             };
             return timeEntry;
         }
