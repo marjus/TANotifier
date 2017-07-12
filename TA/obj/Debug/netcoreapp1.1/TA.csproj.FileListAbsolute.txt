@@ -5,3 +5,5 @@ C:\dev\TANotifier\TA\obj\Debug\netcoreapp1.1\TA.csprojResolveAssemblyReference.c
 C:\dev\TANotifier\TA\obj\Debug\netcoreapp1.1\TA.AssemblyInfo.cs
 C:\dev\TANotifier\TA\obj\Debug\netcoreapp1.1\TA.dll
 C:\dev\TANotifier\TA\obj\Debug\netcoreapp1.1\TA.pdb
+C:\dev\TANotifier\TA\bin\Debug\netcoreapp1.1\StockService.dll
+C:\dev\TANotifier\TA\bin\Debug\netcoreapp1.1\StockService.pdb

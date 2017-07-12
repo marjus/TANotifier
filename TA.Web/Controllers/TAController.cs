@@ -20,6 +20,24 @@ namespace TA.Web.Controllers
             tickerList.Add("MYCR.ST");
             tickerList.Add("HMED.ST");
             tickerList.Add("CTM.ST");
+            tickerList.Add("GEN.CO");
+            tickerList.Add("ALIV-SDB.ST");
+
+            tickerList.Add("TOBII.ST");
+            tickerList.Add("VWS.CO");
+            tickerList.Add("LIFCO-B.ST");
+            tickerList.Add("HM-B.ST");
+            tickerList.Add("BAKKA.OL");
+            tickerList.Add("SAAB-B.ST");
+
+            tickerList.Add("JNJ");
+            tickerList.Add("O");
+            tickerList.Add("MSFT");
+            // tickerList.Add("LITI.ST");
+            tickerList.Add("SOBI.ST");
+            tickerList.Add("GIG.OL");
+            tickerList.Add("EVO.ST");
+            tickerList.Add("LEO.ST");
 
             foreach (var ticker in tickerList)
             {
